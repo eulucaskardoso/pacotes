@@ -75,16 +75,16 @@ h4{
     text-align: center;
     text-decoration: none;
     color: rgb(252, 252, 252)   ;
-   font-family: sans-serif;
+    font-family: sans-serif;
     margin: 0px;
     background-color: rgb(255, 0, 0);
-    height: 50px; */
-   border: none;
-   padding: 14px;
-   text-decoration: none;
-   cursor: pointer;
-   font-size: 20px;
-   border-radius: 15px;
+    height: 50px;
+    border: none;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
 
 }
 

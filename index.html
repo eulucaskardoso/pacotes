@@ -1,103 +1,216 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netplus - Pacotes</title>
-    <link rel="stylesheet" href="https://eulucaskardoso.github.io/pacotes/pacotes.css">
-    <link rel="icon" href="https://eulucaskardoso.github.io/netplus/netplus logo.png">
-</head>
-<body>
-    <div class="container">
-    <!-- card 1 -->
-        <div class="card">
-        <div class="card-titulo">
-            <h3>Plano Mensal</h3>
-            <h4>R$ 35,00 / mês</h4>
-        </div>
-        <div class="card-conteudo">
-            <ul>
-                <li>Mais de 70 canais ao vivo</li>
-                <li>SporTV, ESPN, Band, Globo TV e muito mais</li>
-                <li>Assista a conteúdos exclusivos</li>
-                <li>Acompanhe os jogos do seu time favorito</li>
-                <li>Incluso BBB e Premiere</li>               
-                <li>Cancele quando quiser</li>
-            </ul>
-        </div>
-        <div class="validade">
-            <p>Oferta válida até 15/03/2023</p>
-        </div>
-        <div class="canais">
-            <p><a href="#">Mostrar lista de canais</a></p><a href=""></a>
-        </div>
-        <div class="termos"><a href="#">Ler Termos e condições</a></div>
-        <div class="rodape">
-            <p><a href="https://wa.me/message/RBXMGSOE5FYPG1">Assinar</a> </p>
-        </div>
-    </div>
-    </div>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
 
-    <div class="container">
-        <!-- card 2 -->
-            <div class="card">
-            <div class="card-titulo">
-                <h3>Plano Bimestral</h3>
-                <h4>R$ 65,00 / 02 meses</h4>
-            </div>
-            <div class="card-conteudo">
-                <ul>
-                    <li>Mais de 70 canais ao vivo</li>
-                    <li>SporTV, ESPN, Band, Globo TV e muito mais</li>
-                    <li>Assista a conteúdos exclusivos</li>
-                    <li>Acompanhe os jogos do seu time favorito</li>
-                    <li>Incluso BBB e Premiere</li>               
-                    <li>Cancele quando quiser</li>
-                </ul>
-            </div>
-            <div class="validade">
-                <p>Oferta válida até 15/03/2023</p>
-            </div>
-            <div class="canais">
-                <p><a href="#">Mostrar lista de canais</a></p><a href=""></a>
-            </div>
-            <div class="termos"><a href="#">Ler Termos e condições</a></div>
-            <div class="rodape">
-                <p><a href="https://wa.me/message/RBXMGSOE5FYPG1">Assinar</a> </p>
-            </div>
-        </div>
-        </div>
+}
+html{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,#B22222 0%,	#000000 40%,#000000 60%,#B22222  100%);
+    background-size: 200% 200%;
+    animation: floot 6s linear infinite alternate;
+}
+@keyframes floot {
+    from{background-position:0 0 ;}
+    to{background-position: 100% 100%;}
+}
 
-        <div class="container">
-            <!-- card 3 -->
-                <div class="card">
-                <div class="card-titulo">
-                    <h3>Plano Trimestral</h3>
-                    <h4>R$ 90,00 / 03 meses</h4>
-                </div>
-                <div class="card-conteudo">
-                    <ul>
-                        <li>Mais de 70 canais ao vivo</li>
-                        <li>SporTV, ESPN, Band, Globo TV e muito mais</li>
-                        <li>Assista a conteúdos exclusivos</li>
-                        <li>Acompanhe os jogos do seu time favorito</li>
-                        <li>Incluso BBB e Premiere</li>               
-                        <li>Cancele quando quiser</li>
-                    </ul>
-                </div>
-                <div class="validade">
-                    <p>Oferta válida até 15/03/2023</p>
-                </div>
-                <div class="canais">
-                    <p><a href="#">Mostrar lista de canais</a></p><a href=""></a>
-                </div>
-                <div class="termos"><a href="#">Ler Termos e condições</a></div>
-                <div class="rodape">
-                    <p><a href="https://wa.me/message/RBXMGSOE5FYPG1">Assinar</a> </p>
-                </div>
-            </div>
-            </div>
+/* .container  {
+    width: 300px;
+    height: 450px;
+    margin: 70px ;
+   
+    background-image: radial-gradient(circle at 9.44% -7.92%, #7b9697 0, #768a89 16.67%, #6c7776 33.33%, #5f5f5f 50%, #51484b 66.67%, #45373e 83.33%, #3d2c36 100%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+    font-family: sans-serif;
+    display: inline-block;
+    
 
-</body>
-</html>
+} */
+.container  {
+    width: 300px;
+    height: 450px;
+    margin: 70px ;
+   
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+    font-family: sans-serif;
+    display: inline-block;
+}
+h3{
+    margin: 10px auto;
+    font-size: 22px;
+}
+h4{
+    font-size: 16px;
+}
+.card{
+    height: 170px;
+    padding: 15px;
+  
+    font-family: sans-serif;
+
+}
+.card-titulo{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    margin: 18px 0;
+    text-align: start;
+    padding-left: 20px;
+    color: rgb(255, 0, 0);
+    font-size: bold; 
+}
+
+.card-conteudo li{
+     list-style-type: none;
+}
+
+/* .card-conteudo{
+    font-size: 12px;
+    margin: 20px auto;
+    padding-left: 20px;
+    display: flex; 
+    line-height: 20px;
+    color: 	#dddddd;
+  
+    
+} */
+.card-conteudo{
+    font-size: 12px;
+    margin: 20px auto;
+    padding-left: 20px;
+    display: flex; 
+    line-height: 20px;
+    color: 	#0e0e0e;
+  
+    
+}
+
+/* .rodape, .rodape a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(252, 252, 252)   ;
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+    border: none;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+
+} */
+.rodape {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(252, 252, 252)   ;
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    border: none;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #B22222;
+
+}
+.rodape a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(252, 252, 252)   ;
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    border: none;
+
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+   
+}
+.card-conteudo{
+ margin: 20px auto;
+
+    
+}
+/* .validade{
+    text-align: start;
+    padding-left: 20px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin: 20px auto;
+    color: #dddddd;
+} */
+.validade{
+    text-align: start;
+    padding-left: 20px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin: 20px auto;
+    color: #0a0a0a;
+}
+
+/* .canais{
+    text-align: start;
+    padding-left: 20px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+   
+} */
+.canais{
+    text-align: start;
+    padding-left: 20px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin: 20px auto;
+    color: rgb(0, 0, 0);
+   
+}
+
+.canais p a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.termos{
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    margin: 20px auto;
+    color: rgb(255, 0, 0);
+}
+
+.termos a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+@media(max-width:520px){
+    .container{
+        width: 300px;
+        height: 450px;
+        display:flex;
+        margin: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    h3{
+    margin: 5px ;
+   
+}
